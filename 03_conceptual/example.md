@@ -11,4 +11,4 @@
 - A customer places *one or many* Orders 
 - An Order is placed by *one and only one* Customer
 - An order contains one or many Products
-- A Product is contained in zero or many orders
+- A Product is contained in zero or many orders   
