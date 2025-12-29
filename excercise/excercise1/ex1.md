@@ -113,7 +113,7 @@ g) What is dbml used for?
 | relation instance       |organizes structured data into tables (relations) with rows (tuples) and columns (attributes), using primary/foreign keys to link entities         |
 | child entity            |defines relationships where a dependent child entity relies on a parent entity, often inheriting its primary key as a foreign key.         |
 | parent entity           |establishes hierarchical, many-to-one relationships where a "parent" defines, secures, or categorizes dependent "child" entities         |
-| natural key             |unique, meaningful identifiers derived from real-world data         |
-| surrogate key           |uniquely identifies each entity in the dimension table, regardless of its natural source key         |
-| candidate key           |a minimal set of attributes that uniquely identifies each record in a table, ensuring no two rows are identical and no unnecessary columns are included         |
+| natural key             |unique key that exists outside of the data base, in the real world         |
+| surrogate key           |has no meaning outside of the database, created for having a primary key to uniquly identify each row          |
+| candidate key           |set of keys from which primary keys can be chosen       |
 | alternate key           |candidate keys (unique identifiers) that are not selected as the primary key but still ensure record uniqueness and data integrity         |
