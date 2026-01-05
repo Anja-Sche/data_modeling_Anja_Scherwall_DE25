@@ -8,8 +8,9 @@ A library called Bookly keeps track of books and members who borrow them. Each b
 
 a) Identify the `entities` and `attributes` for each entity.
 
-BOOK(title,author, ISBN_number)
-MEMBER(member_id, name, contact_info)
+BOOK(book_id, title, author, ISBN_number)
+Borrow(borrow_id, book_id, member_id, borrow_date, return_date)
+MEMBER(member_id, name, email, phonenumber, address)
 
 b) Determine the `relationship` between member and books.
 
@@ -17,7 +18,7 @@ many-to-one/one-to-many (depending on how you look at it)
 
 c) Draw a `conceptual ERD` using crow foots notation.
 
-<img src ="DM_excercise01.png" width =400>
+<img src ="DM_excercise01.png" width =500>
 
 ## 1. Conceptual ERD to words
 
